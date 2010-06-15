@@ -11,7 +11,6 @@ namespace.menu = function () {
     function () {
         $(this).find("div.subMenu").slideUp();
     });
-
     // KEYBOARD NAV
     $('#primaryNavList>li').focusin(function () {
         $(this).find("div.subMenu").slideDown();
